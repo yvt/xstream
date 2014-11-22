@@ -17,4 +17,4 @@ target_link_libraries(xstream ${LIB_LIST})
 
 set(CMAKE_CXX_FLAGS "${CMAKE_CXX_FLAGS} -std=c++11")
 
-INSTALL_PROGRAMS(/bin xstream)
+install(PROGRAMS xstream DESTINATION bin)
